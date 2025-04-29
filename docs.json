@@ -94,24 +94,24 @@
     "href": "https://omen-og-or.com"
   },
   "navbar": {
-    "quicklinks": [
+    "links": [
       {
         "label": "Home",
-        "href": "/home"
+        "href": "/https://omen-og-or.com/pages/home"
       },
       {
         "label": "About",
-        "href": "pages/about.com"
+        "href": "https://omen-og-or.com/pages/pages/about"
       },
       {
         "label": "Contact",
-        "href": "Samuel@Omen-og-or.com"
+        "href": "https://omen-og-or.com/pages/contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "pages/dashboard.html"
+      "href": "https://omen-og-or.com/pages/dashboard"
     }
   },
   "footer": {
