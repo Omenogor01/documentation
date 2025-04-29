@@ -94,7 +94,7 @@
     "href": "https://omen-og-or.com"
   },
   "navbar": {
-    "links": [
+    "quicklinks": [
       {
         "label": "Home",
         "href": "/home"
