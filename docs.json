@@ -96,25 +96,22 @@
   "navbar": {
     "links": [
       {
-    "links": [
-      { "title": "Home", "href": "/" },
-      { "title": "About", "href": "/about" }
-    ],
-    "primary": { "title": "Sign Up", "href": "/signup" }
-      },
-      {
         "label": "Home",
-        "href": "/"
+        "href": "pages/home"
       },
       {
         "label": "About",
-        "href": "/about"
+        "href": "pages/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/Samuel@Omen-og-or.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "pages/dashboard"
     }
   },
   "footer": {
