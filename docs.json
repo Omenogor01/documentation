@@ -97,21 +97,21 @@
     "links": [
       {
         "label": "Home",
-        "href": "pages/home"
+        "href": "/pages/home"
       },
       {
         "label": "About",
-        "href": "pages/about"
+        "href": "/pages/about"
       },
       {
         "label": "Contact",
-        "href": "/Samuel@Omen-og-or.com"
+        "href": "Samuel@Omen-og-or.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "pages/dashboard"
+      "href": "/pages/dashboard"
     }
   },
   "footer": {
