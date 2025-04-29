@@ -97,21 +97,21 @@
     "links": [
       {
         "label": "Home",
-        "href": "/home/"
+        "href": "pages/home"
       },
       {
         "label": "About",
-        "href": "/about/"
+        "href": "pages/about"
       },
       {
         "label": "Contact",
-        "href": "/contact/"
+        "href": "pages/contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "/dashboard/"
+      "href": "pages/dashboard"
     }
   },
   "footer": {
