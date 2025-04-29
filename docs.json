@@ -101,17 +101,17 @@
       },
       {
         "label": "About",
-        "href": "/about"
+        "href": "pages/about.com"
       },
       {
         "label": "Contact",
-        "href": "/contact"
+        "href": "Samuel@Omen-og-or.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "/dashboard"
+      "href": "pages/dashboard.html"
     }
   },
   "footer": {
