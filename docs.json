@@ -123,19 +123,19 @@
     "quickLinks": [
       {
         "label": "About",
-        "href": "/about"
+        "href": "https://omen-og-or.com/about"
       },
       {
         "label": "Privacy Policy",
-        "href": "/privacy-policy"
+        "href": "https://omen-og-or.com/privacy-policy"
       },
       {
         "label": "Contact",
-        "href": "/contact"
+        "href": "https://omen-og-or.com/contact"
       },
       {
         "label": "Sitemap",
-        "href": "/sitemap"
+        "href": "https://omen-og-or.com/sitemap"
       }
     ],
     "legal": {
