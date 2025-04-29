@@ -97,11 +97,11 @@
     "links": [
       {
         "label": "Home",
-        "href": "/https://omen-og-or.com/pages/home"
+        "href": "https://omen-og-or.com/pages/home"
       },
       {
         "label": "About",
-        "href": "https://omen-og-or.com/pages/pages/about"
+        "href": "https://omen-og-or.com/pages/about"
       },
       {
         "label": "Contact",
