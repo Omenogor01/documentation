@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
+  "version": "1.0.0",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -53,6 +54,18 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Academy",
+        "groups": [
+          {
+            "group": "Courses",
+            "pages": [
+              "courses/deliverability-101",
+              "courses/advanced-dmarc"
+            ]
+          }
+        ]
       }
     ],
     "global": {
@@ -77,13 +90,22 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://omen-og-or.com"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
       }
     ],
     "primary": {
@@ -97,6 +119,81 @@
       "x": "https://x.com/mintlify",
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
+    },
+    "quickLinks": [
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      {
+        "label": "Sitemap",
+        "href": "/sitemap"
+      }
+    ],
+    "legal": {
+      "termsOfService": "/terms-of-service",
+      "privacyPolicy": "/privacy-policy"
     }
+  },
+  "homepage": {
+    "featured": [
+      "blog/email-basics/how-email-works",
+      "blog/dns-guides/spf-records",
+      "blog/advanced/email-authentication"
+    ],
+    "recentPosts": true,
+    "trending": [
+      "blog/advanced/bulk-email-best-practices",
+      "blog/dns-guides/dkim-setup"
+    ],
+    "cta": {
+      "text": "Subscribe to our newsletter for the latest updates!",
+      "button": {
+        "label": "Subscribe",
+        "href": "/subscribe"
+      }
+    }
+  },
+  "seo": {
+    "title": "Mint Starter Kit",
+    "description": "Learn everything about email fundamentals, DNS, and advanced email topics.",
+    "keywords": ["email", "DNS", "deliverability", "blog"],
+    "openGraph": {
+      "type": "website",
+      "url": "https://omen-og-or.com",
+      "image": "/blog-logo.png"
+    }
+  },
+  "analytics": {
+    "providers": [
+      {
+        "name": "GoogleAnalytics",
+        "trackingId": "UA-12345678-1"
+      },
+      {
+        "name": "Plausible",
+        "trackingId": "plausible-site-id"
+      }
+    ]
+  },
+  "accessibility": {
+    "darkMode": true,
+    "altText": true
+  },
+  "localization": {
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "es", "fr", "de"]
+  },
+  "performance": {
+    "lazyLoadImages": true,
+    "cacheDuration": "1h"
   }
 }
