@@ -72,8 +72,8 @@ Have questions or suggestions? We'd love to hear from you!
 
 Stay connected with us on social media:
 
-- [X (formerly Twitter)](https://x.com/samuelmailblog)
-- [GitHub](https://github.com/samuelmailblog)
+- [X (formerly Twitter)](https://x.com/samuelmailblog)  
+- [GitHub](https://github.com/samuelmailblog)  
 - [LinkedIn](https://linkedin.com/company/samuelmailblog)
 
 ---
