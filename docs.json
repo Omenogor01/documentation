@@ -97,28 +97,28 @@
     "links": [
       {
         "label": "Home",
-        "href": "pages/home"
+        "href": "/home"
       },
       {
         "label": "About",
-        "href": "pages/about"
+        "href": "/about"
       },
       {
         "label": "Contact",
-        "href": "pages/contact"
+        "href": "/contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "pages/dashboard"
+      "href": "/dashboard"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/Realsam0101",
+      "github": "https://github.com/omenogor01/documentation/tree/main",
+      "linkedin": "https://www.linkedin.com/in/samuel-omenogor-a8514125a/"
     },
     "quickLinks": [
       {
