@@ -96,8 +96,11 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+    "links": [
+      { "title": "Home", "href": "/" },
+      { "title": "About", "href": "/about" }
+    ],
+    "primary": { "title": "Sign Up", "href": "/signup" }
       },
       {
         "label": "Home",
