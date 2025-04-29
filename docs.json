@@ -12,107 +12,27 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
+        "tab": "Home",
+        "href": "/"
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "tab": "Categories",
+        "href": "/categories"
       },
       {
-        "tab": "Academy",
-        "groups": [
-          {
-            "group": "Courses",
-            "pages": [
-              "courses/deliverability-101",
-              "courses/advanced-dmarc"
-            ]
-          }
-        ]
+        "tab": "Authors",
+        "href": "/authors"
+      },
+      {
+        "tab": "About",
+        "href": "/about"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg",
-    "href": "https://omen-og-or.com"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Home",
-        "href": "https://omen-og-or.com/pages/home"
-      },
-      {
-        "label": "About",
-        "href": "https://omen-og-or.com/pages/about"
-      },
-      {
-        "label": "Contact",
-        "href": "https://omen-og-or.com/pages/contact"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://omen-og-or.com/pages/dashboard"
-    }
+    "href": "/"
   },
   "footer": {
     "socials": {
@@ -122,20 +42,16 @@
     },
     "quickLinks": [
       {
-        "label": "About",
-        "href": "https://omen-og-or.com/about"
-      },
-      {
         "label": "Privacy Policy",
-        "href": "https://omen-og-or.com/privacy-policy"
+        "href": "/privacy-policy"
       },
       {
         "label": "Contact",
-        "href": "https://omen-og-or.com/contact"
+        "href": "/contact"
       },
       {
         "label": "Sitemap",
-        "href": "https://omen-og-or.com/sitemap"
+        "href": "/sitemap"
       }
     ],
     "legal": {
@@ -163,8 +79,8 @@
     }
   },
   "seo": {
-    "title": "Mint Starter Kit",
-    "description": "Learn everything about email fundamentals, DNS, and advanced email topics.",
+    "title": "Samuel Mail Blog",
+    "description": "Explore email fundamentals, DNS guides, and advanced email topics.",
     "keywords": ["email", "DNS", "deliverability", "blog"],
     "openGraph": {
       "type": "website",
@@ -172,21 +88,45 @@
       "image": "/blog-logo.png"
     }
   },
-  "analytics": {
-    "providers": [
+  "blog": {
+    "categories": [
       {
-        "name": "GoogleAnalytics",
-        "trackingId": "UA-12345678-1"
+        "name": "Email Basics",
+        "slug": "email-basics",
+        "description": "Learn the fundamentals of email communication and infrastructure."
       },
       {
-        "name": "Plausible",
-        "trackingId": "plausible-site-id"
+        "name": "DNS Guides",
+        "slug": "dns-guides",
+        "description": "Step-by-step guides on DNS configuration and management."
+      },
+      {
+        "name": "Advanced Topics",
+        "slug": "advanced",
+        "description": "Deep dives into advanced email and DNS concepts."
       }
+    ],
+    "authors": [
+      {
+        "name": "Samuel Omenogor",
+        "bio": "Tech enthusiast and email deliverability expert.",
+        "avatar": "/authors/samuel.jpg",
+        "socials": {
+          "x": "https://x.com/Realsam0101",
+          "linkedin": "https://www.linkedin.com/in/samuel-omenogor-a8514125a/"
+        }
+      }
+    ],
+    "featuredPosts": [
+      "blog/email-basics/how-email-works",
+      "blog/dns-guides/spf-records",
+      "blog/advanced/email-authentication"
+    ],
+    "recentPosts": true,
+    "trendingPosts": [
+      "blog/advanced/bulk-email-best-practices",
+      "blog/dns-guides/dkim-setup"
     ]
-  },
-  "accessibility": {
-    "darkMode": true,
-    "altText": true
   },
   "localization": {
     "defaultLanguage": "en",
