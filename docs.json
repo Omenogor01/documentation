@@ -13,7 +13,7 @@
     "tabs": [
       {
         "tab": "Home",
-        "href": "/"
+        "href": "/https://omen-og-or.com/pages/home"
       },
       {
         "tab": "Categories",
@@ -21,11 +21,15 @@
       },
       {
         "tab": "Authors",
-        "href": "/authors"
+        "href": "/https://omen-og-or.com/pages/pages/about"
       },
       {
         "tab": "About",
-        "href": "/about"
+        "href": "/https://omen-og-or.com/pages/pages/about"
+      },
+      {
+        "label": "Contact",
+        "href": "https://omen-og-or.com/pages/contact"
       }
     ]
   },
