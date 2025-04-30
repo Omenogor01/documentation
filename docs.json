@@ -13,7 +13,7 @@
     "tabs": [
       {
         "tab": "Home",
-        "href": "/https://omen-og-or.com/pages/home"
+        "href": "https://omen-og-or.com/pages/home"
       },
       {
         "tab": "Categories",
@@ -21,16 +21,25 @@
       },
       {
         "tab": "Authors",
-        "href": "/https://omen-og-or.com/pages/pages/about"
+        "href": "https://omen-og-or.com/pages/pages/about"
       },
       {
         "tab": "About",
-        "href": "/https://omen-og-or.com/pages/pages/about"
+        "href": "https://omen-og-or.com/pages/pages/about"
       },
       {
-        "label": "Contact",
+        "tab": "Contact",
         "href": "https://omen-og-or.com/pages/contact"
       }
+    ],
+    "pages": [
+      "overview"
+    ],
+    "languages": [
+      "en"
+    ],
+    "versions": [
+      "v1"
     ]
   },
   "logo": {
@@ -85,7 +94,12 @@
   "seo": {
     "title": "Samuel Mail Blog",
     "description": "Explore email fundamentals, DNS guides, and advanced email topics.",
-    "keywords": ["email", "DNS", "deliverability", "blog"],
+    "keywords": [
+      "email",
+      "DNS",
+      "deliverability",
+      "blog"
+    ],
     "openGraph": {
       "type": "website",
       "url": "https://omen-og-or.com",
@@ -134,10 +148,16 @@
   },
   "localization": {
     "defaultLanguage": "en",
-    "supportedLanguages": ["en", "es", "fr", "de"]
+    "supportedLanguages": [
+      "en",
+      "es",
+      "fr",
+      "de"
+    ]
   },
   "performance": {
     "lazyLoadImages": true,
     "cacheDuration": "1h"
   }
 }
+
