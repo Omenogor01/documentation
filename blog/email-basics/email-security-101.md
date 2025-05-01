@@ -42,5 +42,7 @@ import { ResourceList } from '/snippets/blog/Components'
       link: "https://www.spamcop.net",
       description: "Report spam incidents"
     }
-  ]}
-/>
+  ]} />
+
+
+

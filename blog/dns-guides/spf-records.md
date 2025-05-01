@@ -29,7 +29,9 @@ import { Steps, Step, Video } from '/snippets/blog/Components'
     
     <Video 
       src="/assets/videos/spf-configuration.mp4" 
-      title="SPF Record Setup Walkthrough"
-    />
+      title="SPF Record Setup Walkthrough" />
   </Step>
 </Steps>
+
+
+

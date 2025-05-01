@@ -27,3 +27,6 @@ import { AuthorBio, NewsletterSignup } from '/snippets/blog/Components'
 ## DMARC Record Breakdown
 ```dns
 v=DMARC1; p=quarantine; rua=mailto:samuelomenogor33@gmail.com; ruf=mailto:samuelomenogor33@gmail.com;
+
+
+

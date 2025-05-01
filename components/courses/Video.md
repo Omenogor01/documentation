@@ -41,8 +41,8 @@ Learn how to configure SPF records to improve email deliverability and protect y
 ```jsx
 <Video
   src="/assets/videos/example-video.mp4"
-  title="How to Configure SPF Records"
-/>
+  title="How to Configure SPF Records">
+</Video>
 ```
 
 /**
@@ -60,10 +60,13 @@ export const Video = ({ src, title }) => (
       className="w-full aspect-video rounded-lg"
       src={src}
       title={title}
-      aria-label={`Video: ${title}`}
-    />
+      aria-label={`Video: ${title}`}>
+      </video>
     <p className="text-sm text-gray-600 mt-2" aria-label={`Video Title: ${title}`}>
       {title}
     </p>
   </div>
 );
+
+
+

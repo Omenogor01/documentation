@@ -63,5 +63,7 @@ The component renders a button to generate and download a PDF certificate.
     <CertificateGenerator
       userName="John Doe"
       courseName="React Basics"
-      date="2025-04-29"
-    />
+      date="2025-04-29" />
+
+
+

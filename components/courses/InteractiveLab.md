@@ -36,8 +36,7 @@ export const InteractiveLab = () => {
         className="w-full p-3 border rounded mb-4 font-mono text-sm"
         placeholder="Paste your DNS record here..."
         rows="4"
-        aria-label="DNS Record Input"
-      />
+        aria-label="DNS Record Input" />
       <button
         onClick={() => setValidationResult(validateSPF(recordInput))}
         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
@@ -72,4 +71,8 @@ export const InteractiveLab = () => {
 };
 
 // Example Usage
-// <InteractiveLab />
+// <InteractiveLab>
+// </InteractiveLab>
+
+
+

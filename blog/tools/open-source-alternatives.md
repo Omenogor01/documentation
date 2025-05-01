@@ -27,8 +27,7 @@ tags: ["open-source", "tools", "self-hosted"]
       link: "https://modoboa.org",
       description: "Modern web UI for email management"
     }
-  ]}
-/>
+  ]} />
 
 ## Comparison Table
 
@@ -37,3 +36,6 @@ tags: ["open-source", "tools", "self-hosted"]
 | **Mailcow** | Docker, SOGo webmail              | Moderate       |
 | **iRedMail**| LDAP integration, Simple setup    | Low            |
 | **Modoboa** | Extensible, Admin interface       | High           |
+
+
+

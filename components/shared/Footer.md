@@ -90,4 +90,8 @@ export const Footer = () => (
 );
 
 // Example Usage
-// <Footer />
+// <Footer>
+// </Footer>
+
+
+

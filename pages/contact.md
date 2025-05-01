@@ -36,10 +36,10 @@ Have a specific question or request? Fill out the form below, and we’ll get ba
 
 <form action="/submit-contact" method="POST">
   <label for="name">Name:</label>
-  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <input type="text" id="name" name="name" placeholder="Your Name" required />
   
   <label for="email">Email:</label>
-  <input type="email" id="email" name="email" placeholder="Your Email" required>
+  <input type="email" id="email" name="email" placeholder="Your Email" required />
   
   <label for="message">Message:</label>
   <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
@@ -58,3 +58,6 @@ Have a specific question or request? Fill out the form below, and we’ll get ba
 ---
 
 Thank you for reaching out to **Samuel Mail Blog**. We look forward to assisting you!
+
+
+

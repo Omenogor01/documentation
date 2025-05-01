@@ -35,8 +35,7 @@ export const EmailSignup = () => {
             className="w-full p-2 rounded border"
             required
             aria-required="true"
-            aria-label="Enter your email address"
-          />
+            aria-label="Enter your email address" />
           <button
             type="submit"
             className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full"
@@ -55,4 +54,8 @@ export const EmailSignup = () => {
 };
 
 // Example Usage
-// <EmailSignup />
+// <EmailSignup>
+// </EmailSignup>
+
+
+

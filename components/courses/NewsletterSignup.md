@@ -29,5 +29,9 @@ A form for capturing newsletter subscriptions with accessibility features.
     <NewsletterSignup
       title="Join Our Newsletter"
       subtitle="Get the latest updates and insights"
-      buttonText="Subscribe"
-    />
+      buttonText="Subscribe">
+    </NewsletterSignup>
+
+
+
+

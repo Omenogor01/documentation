@@ -50,8 +50,8 @@ const steps = [
 
 <ProgressTracker
   steps={steps}
-  currentStep={2}
-/>
+  currentStep={2}>
+</ProgressTracker>
 ```
 
 ```javascript
@@ -64,3 +64,7 @@ import React from 'react';
  * Last Updated: 2025-04-29
  * Tags: ["Progress Tracker", "React Component", "Course Progress", "SEO", "Accessibility"]
  */
+
+
+
+

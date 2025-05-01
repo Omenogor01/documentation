@@ -82,4 +82,5 @@ import { Steps, CardGroup, Card, CodeBlock } from '/snippets/blog/Components'
       description: "Automated key rotation script"
     }
   ]}
-/>
+>
+</ResourceList>

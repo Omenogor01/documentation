@@ -31,8 +31,7 @@ export const EmailHeaderAnalyzer = () => {
         className="w-full p-3 border rounded mb-4 font-mono text-sm"
         placeholder="Paste email headers here..."
         rows="8"
-        aria-label="Email Headers Input"
-      />
+        aria-label="Email Headers Input" />
       <button
         onClick={analyzeHeaders}
         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
@@ -74,4 +73,8 @@ export const EmailHeaderAnalyzer = () => {
 };
 
 // Example Usage
-// <EmailHeaderAnalyzer />
+// <EmailHeaderAnalyzer>
+// </EmailHeaderAnalyzer>
+
+
+

@@ -48,5 +48,7 @@ import { Steps, Video } from '/snippets/blog/Components'
 
 <Video 
   src="/assets/videos/email-flow.mp4" 
-  title="Email Transmission Process"
-/>
+  title="Email Transmission Process" />
+
+
+

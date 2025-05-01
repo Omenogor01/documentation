@@ -27,8 +27,7 @@ tags: ["tools", "dns", "lookup"]
       description: "DNS monitoring service",
       link: "https://dnsspy.io"
     }
-  ]}
-/>
+  ]} />
 
 ## dig Command Examples
 
@@ -41,3 +40,6 @@ dig example.com TXT | grep spf
 
 # Validate DKIM selector
 dig selector._domainkey.example.com TXT
+
+
+

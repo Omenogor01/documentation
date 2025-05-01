@@ -14,8 +14,7 @@ export const SMTPDiagram = () => (
     <img
       src="/assets/images/smtp-flow.svg"
       alt="SMTP protocol sequence diagram showing the communication flow between client and server"
-      className="w-full"
-    />
+      className="w-full" />
     <div className="grid grid-cols-4 gap-4 mt-4 text-sm">
       <div
         className="text-center p-2 bg-blue-50 rounded"
@@ -46,4 +45,8 @@ export const SMTPDiagram = () => (
 );
 
 // Example Usage
-// <SMTPDiagram />
+// <SMTPDiagram>
+// </SMTPDiagram>
+
+
+

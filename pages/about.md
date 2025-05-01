@@ -79,3 +79,7 @@ Stay connected with us on social media:
 ---
 
 Thank you for visiting **Samuel Mail Blog**. We’re excited to help you achieve your email marketing and security goals!
+
+
+
+

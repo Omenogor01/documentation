@@ -126,4 +126,8 @@ export const ApiPlayground = ({ endpoints }) => {
 //     { id: '1', method: 'GET', path: '/users', url: 'https://api.example.com/users' },
 //     { id: '2', method: 'POST', path: '/users', url: 'https://api.example.com/users' },
 //   ]}
-// />
+// >
+// </ApiPlayground>
+
+
+

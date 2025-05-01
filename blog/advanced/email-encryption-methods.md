@@ -125,3 +125,7 @@ Start securing your emails today by adopting the encryption method that best sui
 - [How Email Works: A Beginner's Guide](../email-basics/how-email-works.md)
 - [SPF Records: A Complete Setup Guide](../dns-guides/spf-records.md)
 - [Email Authentication: SPF, DKIM, and DMARC Deep Dive](../advanced/email-authentication.md)
+
+
+
+
