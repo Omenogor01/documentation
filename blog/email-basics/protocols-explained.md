@@ -8,7 +8,7 @@ author:
 tags: ["protocols", "smtp", "imap"]
 ---
 
-import { CardGroup, Card, Steps } from '../../components/blog/Components'
+import { CardGroup, Card, Steps } from '/snippets/blog/Components'
 
 ## Core Protocols Comparison
 

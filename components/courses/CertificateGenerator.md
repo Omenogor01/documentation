@@ -1,12 +1,20 @@
+# CertificateGenerator Component
+
 import jsPDF from 'jspdf';
 
-/**
- * CertificateGenerator Component
- * Description: A React component that generates a downloadable PDF certificate for users who complete a course.
- * Author: Your Name
- * Last Updated: 2025-04-29
- * Tags: ["Certificate Generator", "React Component", "PDF Generation", "jsPDF"]
- */
+## Description
+
+A React component that generates a downloadable PDF certificate for users who complete a course.
+
+## Metadata
+
+- **Author**: Your Name
+- **Last Updated**: 2025-04-29
+- **Tags**:
+  - Certificate Generator
+  - React Component
+  - PDF Generation
+  - jsPDF
 
 export const CertificateGenerator = ({ userName, courseName, date }) => {
   const generateCertificate = () => {
@@ -30,22 +38,30 @@ export const CertificateGenerator = ({ userName, courseName, date }) => {
   };
 
   return (
-    <div className="text-center p-6 bg-blue-50 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Generate Your Certificate</h2>
-      <button
-        onClick={generateCertificate}
-        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
-        aria-label="Download your certificate as a PDF"
-      >
-        Download PDF Certificate
-      </button>
+    <div>
+      ## Generate Your Certificate
+
+      A button to download your PDF certificate.
+
+      **Actions**:
+      - Click to generate and download PDF
+      - Customized for each user's course completion
     </div>
   );
 };
 
-// Example Usage
-// <CertificateGenerator
-//   userName="John Doe"
-//   courseName="React Basics"
-//   date="2025-04-29"
-// />;
+## Usage
+
+The component renders a button to generate and download a PDF certificate.
+
+- Requires `userName`
+- Requires `courseName`
+- Requires `date`
+
+## Example
+
+    <CertificateGenerator
+      userName="John Doe"
+      courseName="React Basics"
+      date="2025-04-29"
+    />

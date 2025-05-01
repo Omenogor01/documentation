@@ -8,7 +8,7 @@ author:
 tags: ["dns", "spf", "email-security"]
 ---
 
-import { Steps, Step, Video } from '../../components/blog/Components'
+import { Steps, Step, Video } from '/snippets/blog/Components'
 
 # SPF Record Deep Dive
 

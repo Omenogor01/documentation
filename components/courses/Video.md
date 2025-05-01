@@ -5,32 +5,44 @@ keywords: ["Video Component", "Embed Videos", "Responsive Design", "Accessibilit
 author: "Your Name"
 ---
 
-# Video Component
+## Video Component
 
 The **Video** component is a versatile tool for embedding videos in your documentation or tutorials. It features a responsive layout, accessibility enhancements, and SEO-friendly attributes to ensure a great user experience.
 
----
-
 ## Features
 
-- **Responsive Design**: Automatically adjusts to fit various screen sizes.  
-- **Accessibility**: Includes ARIA labels and descriptive titles for screen readers.  
-- **SEO Optimization**: Uses proper metadata to improve search engine visibility.  
-- **Customizable**: Easily adapt the component to fit your content needs.
-
----
+* Responsive Design: Automatically adjusts to fit various screen sizes
+* Accessibility: Includes ARIA labels and descriptive titles for screen readers
+* SEO Optimization: Uses proper metadata to improve search engine visibility
+* Customizable: Easily adapt the component to fit your content needs
 
 ## Example Usage
 
-Here’s an example of how to embed a video using the Video component:
+Here's an example of how to embed a video using the Video component:
+
+### Example Video: How to Configure SPF Records
 
 ```markdown
-## Example Video: How to Configure SPF Records
-
 <video controls class="w-full aspect-video rounded-lg" src="/assets/videos/example-video.mp4" title="How to Configure SPF Records" aria-label="Video: How to Configure SPF Records"></video>
 
-**Video Title**: How to Configure SPF Records  
+**Video Title**: How to Configure SPF Records
 Learn how to configure SPF records to improve email deliverability and protect your domain from spoofing.
+```
+
+## Implementation Details
+
+### Props
+
+* `src`: URL or path to the video file
+* `title`: Title of the video
+
+### Example
+
+```jsx
+<Video
+  src="/assets/videos/example-video.mp4"
+  title="How to Configure SPF Records"
+/>
 ```
 
 /**
@@ -55,9 +67,3 @@ export const Video = ({ src, title }) => (
     </p>
   </div>
 );
-
-// Example Usage
-// <Video
-//   src="/assets/videos/example-video.mp4"
-//   title="How to Configure SPF Records"
-// />

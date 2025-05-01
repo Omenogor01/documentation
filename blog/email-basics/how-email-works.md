@@ -8,7 +8,7 @@ author:
 tags: ["email", "basics", "protocols"]
 ---
 
-import { Steps, Video } from '../../components/blog/Components'
+import { Steps, Video } from '/snippets/blog/Components'
 
 ## The Email Journey
 

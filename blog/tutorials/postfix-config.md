@@ -7,7 +7,7 @@ author:
   avatar: "/assets/images/carlos-gutierrez.jpg"
 ---
 
-import { CodeBlock } from '../../components/blog/Components'
+import { CodeBlock } from '/snippets/blog/Components'
 
 # Scaling Postfix for High Volume
 

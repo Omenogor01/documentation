@@ -101,4 +101,3 @@ Start implementing these best practices today to elevate your email marketing st
 - [How Email Works: A Beginner's Guide](../email-basics/how-email-works.md)
 - [SPF Records: A Complete Setup Guide](../dns-guides/spf-records.md)
 - [Email Authentication: Advanced Techniques](../advanced/email-authentication.md)
-

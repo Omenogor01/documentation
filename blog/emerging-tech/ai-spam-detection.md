@@ -8,7 +8,7 @@ author:
 tags: ["ai", "security", "spam"]
 ---
 
-import { SMTPDiagram, EmailHeaderAnalyzer } from '../../components/blog/Components'
+import { SMTPDiagram, EmailHeaderAnalyzer } from '/snippets/blog/Components'
 
 ## Modern Spam Filter Architecture
 

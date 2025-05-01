@@ -8,7 +8,7 @@ author:
 tags: ["security", "phishing", "encryption"]
 ---
 
-import { ResourceList } from '../../components/blog/Components'
+import { ResourceList } from '/snippets/blog/Components'
 
 ## 5 Critical Security Measures
 

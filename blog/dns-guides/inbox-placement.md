@@ -8,7 +8,7 @@ author:
 tags: ["deliverability", "inbox", "spam"]
 ---
 
-import { ResourceList } from '../../components/blog/Components'
+import { ResourceList } from '/snippets/blog/Components'
 
 ## Critical Factors
 

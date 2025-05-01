@@ -8,7 +8,7 @@ author:
 tags: ["dns", "security", "dmarc"]
 ---
 
-import { AuthorBio, NewsletterSignup } from '../../components/blog/Components'
+import { AuthorBio, NewsletterSignup } from '/snippets/blog/Components'
 
 # Mastering DMARC Implementation
 

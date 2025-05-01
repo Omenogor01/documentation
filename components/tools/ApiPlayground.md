@@ -1,3 +1,39 @@
+# API Playground Component
+
+A React component for testing API endpoints. Allows users to select an endpoint, send a request, and view the response in a clean and accessible layout.
+
+## Features
+
+- Endpoint Selection: Choose from multiple API endpoints
+- Request Execution: Send requests with a single click
+- Response Visualization: View detailed API responses
+- Accessibility: Screen reader and keyboard navigation support
+- Error Handling: Graceful error management
+
+## Installation
+
+```bash
+npm install api-playground-component
+```
+
+## Usage
+
+```jsx
+import { ApiPlayground } from 'api-playground-component';
+
+const endpoints = [
+  { id: '1', method: 'GET', path: '/users', url: 'https://api.example.com/users' },
+  { id: '2', method: 'POST', path: '/users', url: 'https://api.example.com/users' }
+];
+
+function App() {
+  return <ApiPlayground endpoints={endpoints} />;
+}
+```
+
+## Component Code
+
+```jsx
 import React, { useState } from 'react';
 
 /**

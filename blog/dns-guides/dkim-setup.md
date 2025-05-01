@@ -8,7 +8,7 @@ author:
 tags: ["dns", "dkim", "authentication"]
 ---
 
-import { Steps, CardGroup, Card, CodeBlock } from '../../components/blog/Components'
+import { Steps, CardGroup, Card, CodeBlock } from '/snippets/blog/Components'
 
 ## DKIM Implementation Walkthrough
 
