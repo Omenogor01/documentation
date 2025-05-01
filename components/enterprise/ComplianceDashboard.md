@@ -72,7 +72,7 @@ The Compliance Dashboard is perfect for:
 
 Thank you for exploring the **Compliance Dashboard** component. Use it to streamline your compliance tracking and ensure your organization stays ahead of regulatory requirements!
 
-import React, { useState } from 'react';
+import React from '/snippets/react';
 
 /**
  * ComplianceDashboard Component
