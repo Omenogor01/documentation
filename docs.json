@@ -3,8 +3,8 @@
   "name": "Samuel Mail Blog",
   "theme": "mint",
   "logo": {
-    "light": "logo/blog-logo.png",
-    "dark": "logo/blog-logo.png",
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
     "href": "https://omen-og-or.com"
   },
   "favicon": "logo/blog-logo.png",
@@ -13,13 +13,14 @@
     "light": "#2c5282",
     "dark": "#1a365d"
   },
+  "description": "Explore email fundamentals, DNS guides, and advanced email topics.",
   "navigation": [
     {
       "group": "Home",
       "pages": [
         {
           "page": "Home",
-          "href": "https://omen-og-or.com/pages/home"
+          "href": "/homepage"
         },
         {
           "page": "Categories",
@@ -27,158 +28,32 @@
         },
         {
           "page": "Authors",
-          "href": "https://omen-og-or.com/pages/pages/about"
+          "href": "/about"
         },
         {
           "page": "About",
-          "href": "https://omen-og-or.com/pages/pages/about"
+          "href": "/about"
         },
         {
           "page": "Contact",
-          "href": "https://omen-og-or.com/pages/contact"
+          "href": "/contact"
         }
       ]
     }
-  ]
-      },
-      {
-        "tab": "Authors",
-        "href": "https://omen-og-or.com/pages/pages/about"
-      },
-      {
-        "tab": "About",
-        "href": "https://omen-og-or.com/pages/pages/about"
-      },
-      {
-        "tab": "Contact",
-        "href": "https://omen-og-or.com/pages/contact"
-      }
-    ],
-    "pages": [
-      "overview"
-    ],
-    "languages": [
-      "en"
-    ],
-    "versions": [
-      "v1"
-    ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
-    "href": "https://omen-og-or.com"
-  },
+  ],
   "footer": {
     "socials": {
       "x": "https://x.com/Realsam0101",
       "github": "https://github.com/omenogor01/documentation/tree/main",
       "linkedin": "https://www.linkedin.com/in/samuel-omenogor-a8514125a/"
-    },
-    "quickLinks": [
-      {
-        "label": "Privacy Policy",
-        "href": "/privacy-policy"
-      },
-      {
-        "label": "Contact",
-        "href": "/contact"
-      },
-      {
-        "label": "Sitemap",
-        "href": "/sitemap"
-      }
-    ],
-    "legal": {
-      "termsOfService": "/terms-of-service",
-      "privacyPolicy": "/privacy-policy"
-    }
-  },
-  "homepage": {
-    "featured": [
-      "blog/email-basics/how-email-works",
-      "blog/dns-guides/spf-records",
-      "blog/advanced/email-authentication"
-    ],
-    "recentPosts": true,
-    "trending": [
-      "blog/advanced/bulk-email-best-practices",
-      "blog/dns-guides/dkim-setup"
-    ],
-    "cta": {
-      "text": "Subscribe to our newsletter for the latest updates!",
-      "button": {
-        "label": "Subscribe",
-        "href": "/subscribe"
-      }
     }
   },
   "seo": {
-    "title": "Samuel Mail Blog",
-    "description": "Explore email fundamentals, DNS guides, and advanced email topics.",
-    "keywords": [
-      "email",
-      "DNS",
-      "deliverability",
-      "blog"
-    ],
-    "openGraph": {
-      "type": "website",
-      "url": "https://omen-og-or.com",
-      "image": "/blog-logo.png"
+    "metatags": {
+      "og:type": "website",
+      "og:url": "https://omen-og-or.com",
+      "og:image": "/blog-logo.png",
+      "keywords": "email, DNS, deliverability, blog"
     }
-  },
-  "blog": {
-    "categories": [
-      {
-        "name": "Email Basics",
-        "slug": "email-basics",
-        "description": "Learn the fundamentals of email communication and infrastructure."
-      },
-      {
-        "name": "DNS Guides",
-        "slug": "dns-guides",
-        "description": "Step-by-step guides on DNS configuration and management."
-      },
-      {
-        "name": "Advanced Topics",
-        "slug": "advanced",
-        "description": "Deep dives into advanced email and DNS concepts."
-      }
-    ],
-    "authors": [
-      {
-        "name": "Samuel Omenogor",
-        "bio": "Tech enthusiast and email deliverability expert.",
-        "avatar": "/authors/samuel.jpg",
-        "socials": {
-          "x": "https://x.com/Realsam0101",
-          "linkedin": "https://www.linkedin.com/in/samuel-omenogor-a8514125a/"
-        }
-      }
-    ],
-    "featuredPosts": [
-      "blog/email-basics/how-email-works",
-      "blog/dns-guides/spf-records",
-      "blog/advanced/email-authentication"
-    ],
-    "recentPosts": true,
-    "trendingPosts": [
-      "blog/advanced/bulk-email-best-practices",
-      "blog/dns-guides/dkim-setup"
-    ]
-  },
-  "localization": {
-    "defaultLanguage": "en",
-    "supportedLanguages": [
-      "en",
-      "es",
-      "fr",
-      "de"
-    ]
-  },
-  "performance": {
-    "lazyLoadImages": true,
-    "cacheDuration": "1h"
   }
 }
