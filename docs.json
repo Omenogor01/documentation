@@ -34,11 +34,27 @@
         "tab": "Categories",
         "groups": [
           {
-            "group": "Blog Topics",
+            "group": "Email Basics",
             "pages": [
-              "category/email-basics",
-              "category/dns-guides",
-              "category/advanced-topics"
+              "blog/email-basics/introduction-to-email",
+              "blog/email-basics/how-email-works",
+              "blog/email-basics/email-protocols"
+            ]
+          },
+          {
+            "group": "DNS Guides",
+            "pages": [
+              "blog/dns-guides/spf-records",
+              "blog/dns-guides/dkim-setup",
+              "blog/dns-guides/dns-configuration"
+            ]
+          },
+          {
+            "group": "Advanced Topics",
+            "pages": [
+              "blog/advanced/email-authentication",
+              "blog/advanced/bulk-email-best-practices",
+              "blog/advanced/email-deliverability"
             ]
           }
         ]
