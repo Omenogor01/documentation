@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Samuel Mail Blog",
+  "name": "Mint Starter Kit",
   "colors": {
     "primary": "#1a365d",
     "light": "#2c5282",
@@ -14,43 +14,89 @@
         "tab": "Home",
         "groups": [
           {
-            "group": "Blog Categories",
+            "group": "Get Started",
             "pages": [
-              "blog/email-basics",
-              "blog/dns-guides", 
-              "blog/advanced-topics"
+              "introduction",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
             ]
           }
         ]
       },
       {
-        "tab": "About",
-        "pages": ["about", "contact"]
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
   },
   "logo": {
-    "light": "logo/blog-logo.png",
-    "dark": "logo/blog-logo.png",
-    "href": "https://omen-og-or.com"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
-  "blog": {
-    "categories": [
+  "navbar": {
+    "links": [
       {
-        "name": "Email Basics",
-        "slug": "email-basics",
-        "description": "Learn the fundamentals of email communication and infrastructure."
-      },
-      {
-        "name": "DNS Guides",
-        "slug": "dns-guides",
-        "description": "Step-by-step guides on DNS configuration and management."
-      },
-      {
-        "name": "Advanced Topics",
-        "slug": "advanced",
-        "description": "Deep dives into advanced email and DNS concepts."
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
       }
-    ]
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
   }
 }
