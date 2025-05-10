@@ -52,6 +52,27 @@
         ]
       }
     ],
+    "seo": {
+      "title": "Samuel Mail Blog",
+      "description": "Explore email fundamentals, DNS guides, and advanced email topics.",
+      "metatags": {
+        "keywords": "email, DNS, deliverability, blog"
+      }
+    },
+    "homepage": {
+      "featured": [
+        "blog/email-basics/how-email-works",
+        "blog/dns-guides/spf-records",
+        "blog/advanced/email-authentication"
+      ],
+      "cta": {
+        "text": "Subscribe to our newsletter for the latest updates!",
+        "button": {
+          "label": "Subscribe",
+          "href": "/subscribe"
+        }
+      }
+    },
     "global": {
       "anchors": [
         {
