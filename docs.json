@@ -14,44 +14,41 @@
         "tab": "Home",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Recent Posts",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "blog/email-basics/how-email-works",
+              "blog/dns-guides/spf-records",
+              "blog/advanced/email-authentication"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Trending",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "blog/advanced/bulk-email-best-practices",
+              "blog/dns-guides/dkim-setup"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Categories",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Blog Topics",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "category/email-basics",
+              "category/dns-guides",
+              "category/advanced-topics"
             ]
           }
+        ]
+      },
+      {
+        "tab": "About",
+        "pages": [
+          "about",
+          "authors",
+          "contact"
         ]
       }
     ],
@@ -94,9 +91,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/Realsam0101",
+      "github": "https://github.com/omenogor01",
+      "linkedin": "https://linkedin.com/in/samuel-omenogor-a8514125a/"
     }
   }
 }
