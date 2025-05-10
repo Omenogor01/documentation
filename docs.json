@@ -64,24 +64,31 @@
   "navbar": {
     "links": [
       {
-        "label": "Home",
-        "href": "https://omen-og-or.com/"
-      },
-      {
-        "label": "Categories",
-        "href": "https://omen-og-or.com/categories"
-      },
-      {
-        "label": "About",
-        "href": "https://omen-og-or.com/about"
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
       }
-    ]
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
   },
   "footer": {
     "socials": {
       "x": "https://x.com/Realsam0101",
       "github": "https://github.com/omenogor01/documentation",
       "linkedin": "https://www.linkedin.com/in/samuel-omenogor-a8514125a/"
-    }
+    },
+    "quickLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
   }
 }
