@@ -1,13 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Samuel Mail Blog",
   "colors": {
     "primary": "#1a365d",
     "light": "#2c5282",
     "dark": "#1a365d"
   },
   "favicon": "logo/blog-logo.png",
+
+
   "navigation": {
     "tabs": [
       {
@@ -110,8 +112,9 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "logo/blog-logo.png",
+    "dark": "logo/blog-logo.png",
+    "href": "https://omen-og-or.com"
   },
   "navbar": {
     "links": [
@@ -129,8 +132,25 @@
   "footer": {
     "socials": {
       "x": "https://x.com/Realsam0101",
-      "github": "https://github.com/omenogor01",
-      "linkedin": "https://linkedin.com/in/samuel-omenogor-a8514125a/"
-    }
+      "github": "https://github.com/omenogor01/documentation/tree/main",
+      "linkedin": "https://www.linkedin.com/in/samuel-omenogor-a8514125a/"
+    },
+    "links": [
+      {
+        "header": "Quick Links",
+        "items": [
+          { "label": "Privacy Policy", "href": "https://omen-og-or.com/privacy-policy" },
+          { "label": "Contact", "href": "https://omen-og-or.com/contact" },
+          { "label": "Sitemap", "href": "https://omen-og-or.com/sitemap" }
+        ]
+      },
+      {
+        "header": "Legal",
+        "items": [
+          { "label": "Terms of Service", "href": "https://omen-og-or.com/terms-of-service" },
+          { "label": "Privacy Policy", "href": "https://omen-og-or.com/privacy-policy" }
+        ]
+      }
+    ]
   }
 }
