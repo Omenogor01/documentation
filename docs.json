@@ -99,7 +99,8 @@
           "blog/community",
           "blog/interview-template",
           "blog/guest-author-template",
-          "blog/api-reference"
+          "blog/api-reference",
+          "blog/signup"
         ]
       }
     ],
