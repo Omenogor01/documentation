@@ -95,17 +95,15 @@
         "pages": [
           "blog/newsletter-archive",
           "blog/success-stories",
-          "blog/tools-and-templates"
+          "blog/tools-and-templates",
+          "blog/community",
+          "blog/interview-template",
+          "blog/guest-author-template",
+          "blog/api-reference"
         ]
       }
     ],
-    "seo": {
-      "title": "Samuel Mail Blog",
-      "description": "Explore email fundamentals, DNS guides, and advanced email topics.",
-      "metatags": {
-        "keywords": "email, DNS, deliverability, blog"
-      }
-    },
+
     "homepage": {
       "featured": [
         "blog/email-basics/how-email-works",
