@@ -4,6 +4,14 @@ date: 2025-05-13
 author: "Samuel Omenogor"
 category: "DNS Guides"
 summary: "A practical guide to SPF records for email authentication."
+description: "Learn what SPF records are, how to set them up, and why they're essential for email deliverability and security."
+keywords:
+  - SPF
+  - email authentication
+  - DNS
+  - deliverability
+  - security
+image: /blog-logo.png
 ---
 
 Sender Policy Framework (SPF) is an email authentication method designed to detect forging sender addresses during the delivery of the email. In this guide, you'll learn:

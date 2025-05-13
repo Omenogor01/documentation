@@ -4,6 +4,14 @@ date: 2025-05-13
 author: "Samuel Omenogor"
 category: "Email Basics"
 summary: "An overview of the main protocols (SMTP, POP3, IMAP) that power email delivery and retrieval."
+description: "A beginner-friendly guide to SMTP, POP3, and IMAP—the core protocols behind email communication."
+keywords:
+  - email
+  - SMTP
+  - POP3
+  - IMAP
+  - protocols
+image: /blog-logo.png
 ---
 
 Email relies on several protocols to send, receive, and store messages. The most important are:

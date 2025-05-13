@@ -1,5 +1,20 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "head": [
+    {
+      "tag": "script",
+      "attrs": {
+        "async": true,
+        "src": "https://www.googletagmanager.com/gtag/js?id=G-D1FJRJDPGC"
+      }
+    },
+    {
+      "tag": "script",
+      "children": [
+        "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-D1FJRJDPGC');"
+      ]
+    }
+  ],
   "theme": "mint",
   "name": "Samuel Mail Blog",
   "colors": {
