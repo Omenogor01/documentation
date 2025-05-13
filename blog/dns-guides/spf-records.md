@@ -34,5 +34,9 @@ import { Steps, Step, Video } from '/snippets/blog/Components'
   </Step>
 </Steps>
 
+## Read Next
 
+- [How SPF Records Work](how-spf-records-work.md)
+- [DKIM Setup](dkim-setup.md)
+- [Email Authentication: SPF, DKIM, and DMARC Deep Dive](../advanced/email-authentication.md)
 

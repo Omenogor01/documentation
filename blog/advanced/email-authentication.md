@@ -112,7 +112,11 @@ Start securing your emails today by setting up SPF, DKIM, and DMARC for your dom
 - [SPF Records: A Complete Setup Guide](../dns-guides/spf-records.md)
 - [Bulk Email Best Practices: Maximizing Deliverability](../advanced/bulk-email-best-practices.md)
 
+---
 
+## Read Next
 
-
+- [How Email Works: From Send to Receive](../email-basics/how-email-works.md)
+- [Mastering SPF Records: Complete Guide](../dns-guides/spf-records.md)
+- [DKIM Setup](../dns-guides/dkim-setup.md)
 

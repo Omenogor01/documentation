@@ -102,6 +102,11 @@ Start implementing these best practices today to elevate your email marketing st
 - [SPF Records: A Complete Setup Guide](../dns-guides/spf-records.md)
 - [Email Authentication: Advanced Techniques](../advanced/email-authentication.md)
 
+---
 
+## Read Next
 
+- [Email Authentication: SPF, DKIM, and DMARC Deep Dive](email-authentication.md)
+- [How Email Works: From Send to Receive](../email-basics/how-email-works.md)
+- [Mastering SPF Records: Complete Guide](../dns-guides/spf-records.md)
 

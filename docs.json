@@ -89,6 +89,14 @@
           "about",
           "contact"
         ]
+      },
+      {
+        "tab": "Resources",
+        "pages": [
+          "blog/newsletter-archive",
+          "blog/success-stories",
+          "blog/tools-and-templates"
+        ]
       }
     ],
     "seo": {
