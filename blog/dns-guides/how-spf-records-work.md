@@ -39,3 +39,16 @@ SPF helps prevent spammers from sending messages with forged "From" addresses at
 
 ---
 *Want more email authentication tips? Check out our other DNS Guides!*
+
+---
+
+## About the Author
+
+**Samuel Omenogor** – Tech enthusiast and email deliverability expert. [Connect on LinkedIn](https://www.linkedin.com/in/samuel-omenogor-a8514125a/)
+
+---
+
+> **Enjoyed this post?**
+>
+> [Subscribe to our newsletter](/subscribe) for more DNS and email tips!
+
