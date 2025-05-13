@@ -1,0 +1,8 @@
+---
+name: Samuel Omenogor
+bio: Tech enthusiast and email deliverability expert.
+avatar: /assets/images/samuel.jpg
+socials:
+  x: https://x.com/Realsam0101
+  linkedin: https://www.linkedin.com/in/samuel-omenogor-a8514125a/
+---

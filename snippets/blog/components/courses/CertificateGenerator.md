@@ -38,7 +38,7 @@ export const CertificateGenerator = ({ userName, courseName, date }) => {
   };
 
   return (
-    <div>
+    <div
       ## Generate Your Certificate
 
       A button to download your PDF certificate.

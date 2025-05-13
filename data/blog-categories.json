@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Email Basics",
+    "slug": "email-basics",
+    "description": "Learn the fundamentals of email communication and infrastructure."
+  },
+  {
+    "name": "DNS Guides",
+    "slug": "dns-guides",
+    "description": "Step-by-step guides on DNS configuration and management."
+  },
+  {
+    "name": "Advanced Topics",
+    "slug": "advanced",
+    "description": "Deep dives into advanced email and DNS concepts."
+  }
+]

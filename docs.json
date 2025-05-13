@@ -47,6 +47,7 @@
             "group": "DNS Guides",
             "pages": [
               "blog/dns-guides/spf-records",
+              "blog/dns-guides/how-spf-records-work",
               "blog/dns-guides/dkim-setup",
               "blog/dns-guides/dns-configuration"
             ]
@@ -62,10 +63,15 @@
         ]
       },
       {
+        "tab": "Authors",
+        "pages": [
+          "authors/samuel-omenogor"
+        ]
+      },
+      {
         "tab": "About",
         "pages": [
           "about",
-          "authors",
           "contact"
         ]
       }
@@ -128,6 +134,10 @@
       "label": "Dashboard",
       "href": "https://dashboard.mintlify.com"
     }
+  },
+  "banner": {
+    "content": "🚀 Welcome to Samuel Mail Blog! New guides added weekly.",
+    "dismissible": true
   },
   "footer": {
     "socials": {
