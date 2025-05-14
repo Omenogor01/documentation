@@ -100,7 +100,8 @@
           "blog/interview-template",
           "blog/guest-author-template",
           "blog/api-reference",
-          "blog/signup"
+          "blog/signup",
+          "blog/tools/mx-lookup"
         ]
       }
     ],
