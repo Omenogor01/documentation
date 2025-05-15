@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Nicosia",
+			"country": {
+				"code": "CY",
+				"name": "Cyprus"
+			},
+			"subdivision": {
+				"code": "01",
+				"name": "Nicosia"
+			},
+			"timezone": "Asia/Nicosia",
+			"latitude": 35.1712,
+			"longitude": 33.3702
+		},
+		"timestamp": 1747191319927
+	}
+}
