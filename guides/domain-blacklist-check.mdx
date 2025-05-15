@@ -1,0 +1,86 @@
+---
+title: 'How to Check if Your Domain is Blacklisted'
+description: 'Learn how to verify your domain status and maintain a clean sending reputation'
+---
+
+# Checking Your Domain Blacklist Status
+
+Email blacklists are databases of IP addresses and domains that have been flagged for sending spam. Being on a blacklist can severely impact your email deliverability. This guide shows you how to check and maintain your domain's reputation.
+
+## Video Tutorial
+<iframe
+  width="560"
+  height="315"
+  src="/videos/how to check if your domain is blacklisted.mp4"
+  title="How to Check if Your Domain is Blacklisted"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## Step-by-Step Guide
+
+### 1. Use Our MX Lookup Tool
+<Note>
+  Start by checking your domain's MX records to ensure proper email server configuration.
+</Note>
+
+```html
+<MxLookup />
+```
+
+### 2. Common Blacklist Databases to Check
+- Spamhaus
+- Barracuda
+- SpamCop
+- SORBS
+- Microsoft SNDS
+
+### 3. Interpreting Results
+- ✅ Listed as "Clean" - Your domain is not blacklisted
+- ⚠️ Listed in 1-2 databases - Minor issue, take preventive action
+- 🚫 Listed in 3+ databases - Immediate action required
+
+### 4. What to Do If Blacklisted
+1. Identify the cause
+   - Compromised email accounts
+   - Poor list hygiene
+   - Spam complaints
+   - Technical issues
+
+2. Take corrective action
+   - Clean your email list
+   - Update security measures
+   - Review sending practices
+   - Fix technical configurations
+
+3. Request delisting
+   - Follow each blacklist's removal process
+   - Be patient - removal can take 24-72 hours
+   - Document changes made to prevent future listings
+
+## Best Practices to Avoid Blacklisting
+
+1. **Regular List Cleaning**
+   - Remove inactive subscribers
+   - Validate email addresses
+   - Honor unsubscribe requests promptly
+
+2. **Authentication**
+   - Implement SPF records
+   - Set up DKIM signing
+   - Enable DMARC policy
+
+3. **Monitoring**
+   - Track bounce rates
+   - Monitor spam complaints
+   - Check blacklist status regularly
+
+4. **Content Quality**
+   - Avoid spam trigger words
+   - Maintain good text-to-image ratio
+   - Use clear sender information
+
+<Note>
+  Regular monitoring and maintenance of your domain's reputation is crucial for successful email marketing campaigns.
+</Note>
