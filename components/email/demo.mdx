@@ -1,0 +1,223 @@
+---
+title: Email Validator Demo
+description: Interactive demo of the Email Validator component
+---
+
+import { Card, CardContent } from '@mintlify/components';
+import EmailValidator from './EmailValidator';
+
+# Email Validator Demo
+
+Try out the Email Validator component below:
+
+<Card className="max-w-2xl mx-auto my-8">
+  <CardContent>
+    <EmailValidator />
+  </CardContent>
+</Card>
+
+## How to Use
+
+The Email Validator component can be easily integrated into your forms:
+
+```jsx
+import EmailValidator from './components/email/EmailValidator';
+
+function ContactForm() {
+  return (
+    <div className="space-y-4">
+      <h2>Contact Us</h2>
+      <div className="space-y-2">
+        <label htmlFor="name">Name</label>
+        <input 
+          id="name" 
+          type="text" 
+          className="w-full p-2 border rounded"
+          placeholder="Your name"
+        />
+      </div>
+      <div className="space-y-2">
+        <label htmlFor="email">Email</label>
+        <EmailValidator />
+      </div>
+      <button 
+        type="submit" 
+        className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+      >
+        Submit
+      </button>
+    </div>
+  );
+}
+```
+
+## Customization
+
+### Styling
+
+You can customize the appearance using Tailwind CSS classes:
+
+```jsx
+<EmailValidator 
+  className="p-6 bg-gray-50 rounded-lg"
+  inputClassName="border-2 border-gray-300 rounded px-3 py-2 w-full"
+  buttonClassName="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded"
+  validClassName="text-green-600"
+  invalidClassName="text-red-600"
+/>
+```
+
+### Localization
+
+Customize all text strings:
+
+```jsx
+<EmailValidator
+  messages={{
+    placeholder: 'Enter your email address',
+    validateButton: 'Verify Email',
+    validMessage: '✓ Valid email address',
+    copyButton: 'Copy',
+    copiedMessage: 'Copied!',
+    invalidFormat: 'Please enter a valid email',
+    disposableEmail: 'Temporary email addresses are not allowed',
+    commonTypo: 'Did you mean {{suggestion}}?',
+  }}
+/>
+```
+
+## Integration with Forms
+
+Here's how to integrate with a form handler:
+
+```jsx
+function SignupForm() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    isValid: false
+  });
+
+  const handleValidation = (result) => {
+    setFormData(prev => ({
+      ...prev,
+      isValid: result.isValid
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (formData.isValid) {
+      // Submit form data
+      console.log('Form submitted:', formData);
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-4">
+      <div>
+        <label className="block mb-1">Name</label>
+        <input
+          type="text"
+          value={formData.name}
+          onChange={(e) => setFormData({...formData, name: e.target.value})}
+          className="w-full p-2 border rounded"
+          required
+        />
+      </div>
+      <div>
+        <label className="block mb-1">Email</label>
+        <EmailValidator 
+          onValidate={handleValidation}
+          initialValue={formData.email}
+          onChange={(email) => setFormData({...formData, email})}
+        />
+      </div>
+      <button 
+        type="submit" 
+        disabled={!formData.isValid}
+        className={`px-4 py-2 rounded ${
+          formData.isValid 
+            ? 'bg-blue-600 hover:bg-blue-700 text-white' 
+            : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+        }`}
+      >
+        Sign Up
+      </button>
+    </form>
+  );
+}
+```
+
+## Common Use Cases
+
+### User Registration
+
+```jsx
+<Card>
+  <CardContent>
+    <h2 className="text-xl font-bold mb-4">Create Account</h2>
+    <EmailValidator 
+      className="mb-4"
+      onValidate={(result) => {
+        // Save validation result to form state
+        setFormValid(result.isValid);
+      }}
+    />
+    <button 
+      className="w-full bg-blue-600 text-white py-2 rounded disabled:opacity-50"
+      disabled={!formValid}
+    >
+      Continue
+    </button>
+  </CardContent>
+</Card>
+```
+
+### Newsletter Signup
+
+```jsx
+<Card>
+  <CardContent className="text-center">
+    <h3 className="text-lg font-semibold mb-2">Subscribe to our newsletter</h3>
+    <p className="text-gray-600 mb-4">Get the latest updates and news</p>
+    <div className="flex">
+      <div className="flex-grow">
+        <EmailValidator 
+          showCopyButton={false}
+          buttonClassName="hidden"
+          inputClassName="rounded-r-none"
+        />
+      </div>
+      <button 
+        className="bg-blue-600 text-white px-4 rounded-r hover:bg-blue-700"
+        onClick={handleSubscribe}
+      >
+        Subscribe
+      </button>
+    </div>
+  </CardContent>
+</Card>
+```
+
+## Best Practices
+
+1. **Always validate on the server** - Client-side validation is for UX, not security
+2. **Provide clear error messages** - Help users understand and fix issues
+3. **Use proper input types** - `type="email"` for better mobile keyboard support
+4. **Consider accessibility** - Ensure proper labels and ARIA attributes
+5. **Test thoroughly** - Check with different email formats and edge cases
+
+## Troubleshooting
+
+If the component isn't working as expected:
+
+1. Check the browser console for errors
+2. Ensure all required dependencies are installed
+3. Verify that React is properly imported
+4. Make sure you're not using conflicting CSS styles
+5. Check for any JavaScript errors that might be preventing the component from loading
+
+## Need Help?
+
+If you have any questions or run into issues, please [open an issue](https://github.com/your-repo/issues) on our GitHub repository.

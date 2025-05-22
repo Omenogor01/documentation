@@ -1,0 +1,65 @@
+/* Custom styles for DNS tools */
+
+/* Card styling */
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+/* Input styling */
+.input {
+  @apply w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500;
+}
+
+/* Button styling */
+.button {
+  @apply bg-primary-500 text-white px-4 py-2 rounded-md hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-200;
+}
+
+/* Alert styling */
+.alert {
+  @apply p-4 rounded-md;
+}
+
+.alert.error {
+  @apply bg-red-50 text-red-700 border border-red-200;
+}
+
+/* Preformatted text styling */
+.pre {
+  @apply bg-gray-100 p-4 rounded-md whitespace-pre-wrap;
+}
+
+/* Loading state */
+.loading {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+/* Results section */
+.results {
+  @apply mt-4;
+}
+
+.results h4 {
+  @apply font-semibold mb-2;
+}
+
+.results pre {
+  @apply bg-gray-100 p-4 rounded whitespace-pre-wrap;
+}
+
+/* List styling */
+.results ul {
+  @apply list-disc list-inside;
+}
+
+.results li {
+  @apply text-red-600;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .input,
+  .button {
+    @apply w-full;
+  }
+}
