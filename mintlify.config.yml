@@ -1,4 +1,3 @@
-# Mintlify Configuration
 name: Documentation
 favicon: /favicon.ico
 colors:
@@ -7,19 +6,29 @@ colors:
   dark: "#0077b6"
   ultralight: "#caf0f8"
 
-# Navigation configuration
-nav:
-  - title: "Getting Started"
-    path: "/introduction"
-  - title: "Email Tools"
-    path: "/components/email/EmailValidator"
-  - title: "Network Tools"
-    path: "/components/tools/PortScanner"
+navigation:
+  header:
+    - group: Getting Started
+      pages:
+        - title: Introduction
+          path: /introduction
+        - title: Installation
+          path: /installation
+        - title: Configuration
+          path: /configuration
+    - group: Email Tools
+      pages:
+        - title: Email Validator
+          path: /components/email/EmailValidator
+    - group: Network Tools
+      pages:
+        - title: Port Scanner
+          path: /components/tools/PortScanner
+        - title: IP Reputation Checker
+          path: /components/tools/IPReputationChecker
 
-# Search configuration
 search:
   enabled: true
 
-# Analytics configuration
 analytics:
   enabled: false
