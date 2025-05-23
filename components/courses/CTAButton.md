@@ -34,16 +34,13 @@ export default function CTAButton({ href, className = '', children, ariaLabel })
   );
 }
 
+```jsx
 // Example Usage
-// <CTAButton>
-// </CTAButton>>
-// </CTAButton>
-//   href="https://example.com"
-//   className="custom-class"
-//   ariaLabel="Learn more about our services"
-// >
-//   Learn More
-// </CTAButton>
-
-
-
+<CTAButton
+  href="https://example.com"
+  className="custom-class"
+  ariaLabel="Learn more about our services"
+>
+  Learn More
+</CTAButton>
+```

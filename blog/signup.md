@@ -24,11 +24,32 @@ Stay informed! Subscribe to our newsletter for:
 
 Fill out the form below or [click here to subscribe](https://newsletter.yourdomain.com) (replace with your actual signup link/service):
 
-<form action="https://newsletter.yourdomain.com/subscribe" method="POST" style="max-width:400px;margin:2rem 0;">
-  <label for="email">Email Address:</label><br>
-  <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin:8px 0;">
-  <button type="submit" style="background:#1a365d;color:#fff;padding:10px 20px;border:none;border-radius:4px;cursor:pointer;">Subscribe</button>
-</form>
+<div className="newsletter-form" style={{maxWidth: '400px', margin: '2rem 0'}}>
+  <form action="https://newsletter.yourdomain.com/subscribe" method="POST">
+    <label htmlFor="email">Email Address:</label>
+    <br />
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      required 
+      style={{width: '100%', padding: '8px', margin: '8px 0'}} 
+    />
+    <button 
+      type="submit" 
+      style={{
+        background: '#1a365d',
+        color: '#fff',
+        padding: '10px 20px',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer'
+      }}
+    >
+      Subscribe
+    </button>
+  </form>
+</div>
 
 ---
 

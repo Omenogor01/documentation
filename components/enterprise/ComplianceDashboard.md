@@ -155,27 +155,23 @@ export const ComplianceDashboard = ({ standards }) => {
 };
 
 // Example Usage
-// <ComplianceDashboard
-//   standards={{
-//     gdpr: {
-//       requirements: ['Data Protection Impact Assessment', 'Right to Erasure', 'Data Breach Notification'],
-//       status: [
-//         { label: 'Data Protection Impact Assessment', complete: true },
-//         { label: 'Right to Erasure', complete: false },
-//         { label: 'Data Breach Notification', complete: true },
-//       ],
-//     },
-//     ccpa: {
-//       requirements: ['Right to Know', 'Right to Delete', 'Opt-Out of Sale'],
-//       status: [
-//         { label: 'Right to Know', complete: true },
-//         { label: 'Right to Delete', complete: false },
-//         { label: 'Opt-Out of Sale', complete: false },
-//       ],
-//     },
-//   }}
-// >
-// </ComplianceDashboard>
-
-
-
+<ComplianceDashboard
+  standards={{
+    gdpr: {
+      requirements: ['Data Protection Impact Assessment', 'Right to Erasure', 'Data Breach Notification'],
+      status: [
+        { label: 'Data Protection Impact Assessment', complete: true },
+        { label: 'Right to Erasure', complete: false },
+        { label: 'Data Breach Notification', complete: true }
+      ]
+    },
+    ccpa: {
+      requirements: ['Right to Know', 'Right to Delete', 'Opt-Out of Sale'],
+      status: [
+        { label: 'Right to Know', complete: true },
+        { label: 'Right to Delete', complete: false },
+        { label: 'Opt-Out of Sale', complete: false },
+      ],
+    },
+  }}
+/>

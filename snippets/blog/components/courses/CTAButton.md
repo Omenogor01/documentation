@@ -8,7 +8,7 @@
 
 export default function CTAButton({ href, className = '', children, ariaLabel }) {
   return (
-    <a>
+    <a
       href={href}
       className={`cta-button ${className}`}
       style={{
@@ -32,14 +32,13 @@ export default function CTAButton({ href, className = '', children, ariaLabel })
   );
 }
 
+```jsx
 // Example Usage
-// <CTAButton
-//   href="https://example.com"
-//   className="custom-class"
-//   ariaLabel="Learn more about our services"
-// >
-//   Learn More
-// </CTAButton>
-
-
-
+<CTAButton
+  href="https://example.com"
+  className="custom-class"
+  ariaLabel="Learn more about our services"
+>
+  Learn More
+</CTAButton>
+```

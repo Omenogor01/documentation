@@ -38,14 +38,15 @@ export const CertificateGenerator = ({ userName, courseName, date }) => {
   };
 
   return (
-    <div
-      ## Generate Your Certificate
-
-      A button to download your PDF certificate.
-
-      **Actions**:
-      - Click to generate and download PDF
-      - Customized for each user's course completion
+    <div>
+      <h2>Generate Your Certificate</h2>
+      <p>A button to download your PDF certificate.</p>
+      
+      <h3>Actions:</h3>
+      <ul>
+        <li>Click to generate and download PDF</li>
+        <li>Customized for each user's course completion</li>
+      </ul>
     </div>
   );
 };

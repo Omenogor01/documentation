@@ -1,0 +1,38 @@
+{
+  "name": "documentation",
+  "mint": {
+    "name": "Documentation",
+    "favicon": "/favicon.ico",
+    "colors": {
+      "primary": "#00b4d8",
+      "light": "#90e0ef",
+      "dark": "#0077b6",
+      "ultralight": "#caf0f8"
+    },
+    "navigation": {
+      "header": [
+        {
+          "group": "Getting Started",
+          "pages": [
+            "introduction",
+            "installation",
+            "configuration"
+          ]
+        },
+        {
+          "group": "Email Tools",
+          "pages": [
+            "components/email/EmailValidator"
+          ]
+        },
+        {
+          "group": "Network Tools",
+          "pages": [
+            "components/tools/PortScanner",
+            "components/tools/IPReputationChecker"
+          ]
+        }
+      ]
+    }
+  }
+}
