@@ -1,79 +1,25 @@
 # Mintlify Configuration
-
-# Base URL for the documentation site
-baseUrl: ""
-
-# Theme configuration
-theme:
-  # Primary color
-  primaryColor: "#1a365d"
-  # Secondary color
-  secondaryColor: "#2a5298"
-  # Font family
-  fontFamily: "Inter, system-ui, sans-serif"
+name: Documentation
+favicon: /favicon.ico
+colors:
+  primary: "#00b4d8"
+  light: "#90e0ef"
+  dark: "#0077b6"
+  ultralight: "#caf0f8"
 
 # Navigation configuration
 nav:
-  - title: "Home"
-    path: "/"
-  - title: "Tools"
-    path: "/tools"
-    items:
-      - title: "DNS Record Checker"
-        path: "/tools/dns-record-checker"
-      - title: "SPF Validator"
-        path: "/tools/spf-validator"
-      - title: "DKIM Validator"
-        path: "/tools/dkim-validator"
-      - title: "DMARC Validator"
-        path: "/tools/dmarc-validator"
-      - title: "DNS Propagation Checker"
-        path: "/tools/dns-propagation-checker"
-      - title: "DNS Record History"
-        path: "/tools/dns-record-history"
-      - title: "MX Record Lookup"
-        path: "/tools/mx-record-lookup"
-      - title: "DNS Zone Transfer Checker"
-        path: "/tools/dns-zone-transfer"
-      - title: "DNSSEC Validator"
-        path: "/tools/dnssec-validator"
-      - title: "Email Syntax Validator"
-        path: "/tools/email-syntax-validator"
-      - title: "Email Blacklist Checker"
-        path: "/tools/email-blacklist-checker"
-      - title: "Email Header Analyzer"
-        path: "/tools/email-header-analyzer"
-      - title: "Email Compliance Checker"
-        path: "/tools/email-compliance-checker"
-      - title: "Email Deliverability Score"
-        path: "/tools/email-deliverability-score"
-      - title: "Domain Reputation Checker"
-        path: "/tools/domain-reputation-checker"
-      - title: "Domain Blacklist Checker"
-        path: "/tools/domain-blacklist-checker"
-      - title: "Domain Age & Registration Info"
-        path: "/tools/domain-age-info"
-      - title: "Reverse DNS Lookup"
-        path: "/tools/reverse-dns-lookup"
-      - title: "SSL Certificate Validator"
-        path: "/tools/ssl-certificate-validator"
-      - title: "TLS Configuration Tester"
-        path: "/tools/tls-configuration-tester"
+  - title: "Getting Started"
+    path: "/introduction"
+  - title: "Email Tools"
+    path: "/components/email/EmailValidator"
+  - title: "Network Tools"
+    path: "/components/tools/PortScanner"
 
 # Search configuration
 search:
   enabled: true
-  index:
-    - "title"
-    - "description"
-    - "content"
 
 # Analytics configuration
 analytics:
-  enabled: true
-  provider: "google"
-  trackingId: ""
-
-# Custom CSS
-styles:
-  - "/styles/custom.css"
+  enabled: false
