@@ -1,0 +1,35 @@
+module.exports = {
+  name: 'Documentation',
+  favicon: '/favicon.ico',
+  colors: {
+    primary: '#00b4d8',
+    light: '#90e0ef',
+    dark: '#0077b6',
+    ultralight: '#caf0f8'
+  },
+  navigation: {
+    header: [
+      {
+        group: 'Getting Started',
+        pages: [
+          { title: 'Introduction', path: '/introduction' },
+          { title: 'Installation', path: '/installation' },
+          { title: 'Configuration', path: '/configuration' }
+        ]
+      },
+      {
+        group: 'Email Tools',
+        pages: [
+          { title: 'Email Validator', path: '/components/email/EmailValidator' }
+        ]
+      },
+      {
+        group: 'Network Tools',
+        pages: [
+          { title: 'Port Scanner', path: '/components/tools/PortScanner' },
+          { title: 'IP Reputation Checker', path: '/components/tools/IPReputationChecker' }
+        ]
+      }
+    ]
+  }
+}
