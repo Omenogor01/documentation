@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["dns", "dns/promises"]
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[dev]
+  framework = "#custom"
+  targetPort = 3001
+  port = 3001
+  publish = "dist"
+  command = "npm run dev"
+
+[build.environment]
+  NODE_VERSION = "18.0.0"
+  NPM_FLAGS = "--prefix=./"

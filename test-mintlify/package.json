@@ -1,0 +1,23 @@
+{
+  "name": "test-mintlify",
+  "version": "1.0.0",
+  "description": "Documentation with interactive domain tools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mintlify dev",
+    "build": "mintlify build",
+    "preview": "mintlify preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["documentation", "domain", "tools", "mintlify"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@mintlify/cli": "^4.0.550",
+    "netlify-cli": "^12.0.0"
+  }
+}

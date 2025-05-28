@@ -1,0 +1,58 @@
+{
+  "name": "Documentation",
+  "favicon": "/logo-light.svg",
+  "colors": {
+    "primary": "#00b4d8"
+  },
+  "layout": "./components/layout/DocLayout.jsx",
+  "navigation": [
+    {
+      "group": "Documentation",
+      "pages": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "About",
+          "path": "/about"
+        }
+      ]
+    },
+    {
+      "group": "Email Tools",
+      "pages": [
+        {
+          "title": "Email Validator",
+          "path": "/components/email/EmailValidator"
+        }
+      ]
+    },
+    {
+      "group": "Domain Tools",
+      "pages": [
+        {
+          "title": "Domain Age Checker",
+          "path": "/components/tools/DomainAgeChecker"
+        },
+        {
+          "title": "Domain Blacklist Checker",
+          "path": "/components/tools/DomainBlacklistChecker"
+        }
+      ]
+    },
+    {
+      "group": "Blog",
+      "pages": [
+        {
+          "title": "DNS Configuration",
+          "path": "/blog/dns-guides/dns-configuration"
+        },
+        {
+          "title": "Email Deliverability",
+          "path": "/blog/advanced/email-deliverability"
+        }
+      ]
+    }
+  ]
+}

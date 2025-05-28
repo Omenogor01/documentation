@@ -1,0 +1,15 @@
+{
+  "name": "documentation",
+  "navigation": {
+    "header": [
+      {
+        "title": "Introduction",
+        "path": "/introduction"
+      },
+      {
+        "title": "Email Validator",
+        "path": "/components/email/EmailValidator"
+      }
+    ]
+  }
+}

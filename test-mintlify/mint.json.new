@@ -1,0 +1,9 @@
+{
+  "name": "Documentation Tools",
+  "navigation": {
+    "Home": "/",
+    "Email Validator": "/components/email/EmailValidator",
+    "Domain Age Checker": "/components/tools/DomainAgeChecker",
+    "Domain Blacklist Checker": "/components/tools/DomainBlacklistChecker"
+  }
+}
