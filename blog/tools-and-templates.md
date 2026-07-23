@@ -25,6 +25,7 @@ Leverage these recommended tools and ready-to-use templates to streamline your w
 - [GlockApps](https://glockapps.com/) — Inbox placement and spam testing
 - [Mail Tester](https://www.mail-tester.com/) — Simple email spam score checker
 - [DMARC Analyzer](https://dmarcian.com/) — DMARC record analysis and reporting
+- [Suped](https://www.suped.com/tools/email-tester) - Check SPF, DKIM, DMARC, and deliverability
 
 ### Authentication & Security
 - [DKIM Core Key Generator](https://dkimcore.org/tools/) — Generate DKIM keys
